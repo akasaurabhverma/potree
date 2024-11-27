@@ -5,3 +5,5 @@ rollup.config.js
 pointclouds
 docs/
 examples/
+*.md
+*.config.js
