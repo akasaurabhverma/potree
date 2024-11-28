@@ -7,7 +7,7 @@ export default [
     treeshake: true, // Enable tree-shaking
     output: {
       file: "build/potree/potree.esm.js",
-      format: "es", // ES Modules (ESM)
+      format: "umd", // ES Modules (ESM)
       sourcemap: true, // Enable sourcemaps for debugging
     },
     plugins: [
