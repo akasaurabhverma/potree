@@ -13,6 +13,7 @@ export default [
     plugins: [
       terser(), // Minify the output
     ],
+    external: ["proj4", "jquery"],
   },
 
   // UMD Build (for legacy or broader compatibility)
