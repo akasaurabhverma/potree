@@ -5,12 +5,10 @@ export default [
   // ESM Build (for React/modern apps)
   {
     input: "src/Potree.js",
-    treeshake: {
-      moduleSideEffects: false, // Ensure unused imports are removed
-    },
+    treeshake: false,
     output: {
       file: "build/potree/potree.esm.js",
-      format: "umd", // ES Modules (ESM)
+      format: "es", // ES Modules (ESM)
       sourcemap: true, // Enable sourcemaps for debugging
     },
     plugins: [
@@ -25,7 +23,7 @@ export default [
     treeshake: true, // Enable tree-shaking
     output: {
       file: "build/potree/potree.js",
-      format: "umd",
+      format: "es",
       name: "Potree",
       sourcemap: true, // Enable sourcemaps for debugging
     },

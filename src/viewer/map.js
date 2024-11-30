@@ -1,4 +1,4 @@
-import * as proj4 from "proj4";
+import proj4 from "proj4";
 import * as THREE from "../../libs/three.js/build/three.module.js";
 
 // http://epsg.io/

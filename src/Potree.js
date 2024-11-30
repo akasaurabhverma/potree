@@ -78,7 +78,6 @@ import "./extensions/OrthographicCamera.js";
 import "./extensions/PerspectiveCamera.js";
 import "./extensions/Ray.js";
 
-import jQuery from "../libs/jquery/jquery-3.1.1.js";
 import { CopcLoader, EptLoader } from "./loader/EptLoader.js";
 import { POCLoader } from "./loader/POCLoader.js";
 import { LRU } from "./LRU.js";
