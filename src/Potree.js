@@ -74,6 +74,7 @@ export { FirstPersonControls } from "./navigation/FirstPersonControls.js";
 export { OrbitControls } from "./navigation/OrbitControls.js";
 export { VRControls } from "./navigation/VRControls.js";
 
+import jQuery from "jQuery";
 import "./extensions/OrthographicCamera.js";
 import "./extensions/PerspectiveCamera.js";
 import "./extensions/Ray.js";
