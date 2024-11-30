@@ -1,6 +1,6 @@
 {
   "name": "@akasaurabhverma/potree",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "WebGL point cloud viewer",
   "keywords": [
     "point",
