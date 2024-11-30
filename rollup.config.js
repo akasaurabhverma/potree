@@ -1,4 +1,4 @@
-import { resolve } from "@rollup/plugin-node-resolve";
+import nodeResolve from "@rollup/plugin-node-resolve";
 import { terser } from "rollup-plugin-terser";
 
 export default [
@@ -14,9 +14,7 @@ export default [
       sourcemap: true, // Enable sourcemaps for debugging
     },
     plugins: [
-      resolve({
-        moduleDirectories: ["node_modules"], // Ensures it resolves from node_modules
-      }),
+      nodeResolve(), // Resolve node_modules
       terser(), // Minify the output
     ],
   },
